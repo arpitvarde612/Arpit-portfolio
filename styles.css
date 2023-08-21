@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(34, 19, 70);
+    color: wheat;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: rgba(43, 21, 106, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    width: 17%;
+    border-radius: 100%;
+    margin-top: 11px;
+}
+
+nav img:hover {
+    width: 19%;
+    transition: 0.5s;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;    
+}
+
+nav ul li {
+    list-style: none;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgba(219, 219, 219, 255);
+    font-size: 1.10rem;
+    transition: 0.5s;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+main hr {
+    border: 0;
+    width: auto;
+    height: 2.5px;
+    margin: 50px 80px;
+    background-color: rgba(79, 32, 210, 255);
+}
+
+.main1 {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.main1>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+    color: white;
+    margin-top:125px;
+}
+
+.rightsection img {
+    width: 133%;
+    border-radius: 30%;
+    
+}
+
+.rightsection{
+    margin-right:40px;
+}
+.blue {
+    color: rgba(79, 32, 210, 255);
+    font-size: 3rem;
+}
+
+#element {
+    color: rgba(79, 32, 210, 255);
+
+}
+
+.main2 {
+    margin: auto;
+    width: 80vw;
+}
+
+.box{
+    height: 8vw;
+    display:flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+}
+
+.box a{
+    color:rgba(245,222,179,255);
+}
+.box a:hover{
+    transition: 0.5s;
+    font-size: 1.04rem;
+}
+
+.leftside{
+    width: 20vw 80vw;
+}
+
+.leftside img{
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 100%;   
+}
+.leftside img:hover{
+    width: 85%;
+    background-color:rgb(175, 218, 255);
+    border-radius: 100%;   
+    transition: 0.5s;
+}
+.rightside{
+    width: 80vw 20vw;
+    text-align: justify;
+}
+
+.about{
+    display:flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.about .information{
+    text-align: justify;
+    width: 80vw 20vw;
+}
+
+.about-img{
+    width: 20vw 80vw;
+    margin: -1vw 1vw;   
+}
+.about-img img{
+    height: 13vw;
+}
+.about-img img:hover{   
+    height: 13.1vw;
+    transition: 0.5s;
+}
+
+
+.education{
+    display:flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    
+}
+.education h3{
+    text-align: center;
+}
+.place{
+    width: 50%;
+    text-align: justify;
+    margin: 0px 2.5vw;
+    background-color: rgba(79,32,210,255);
+    border-radius: 1vw;
+}
+
+.place-text{
+    margin: 0px 30px;
+    color:rgba(245,222,179,255);
+}
+.place-text a{
+    color: rgba(245,222,179,255);;
+}
+.place-text a:hover{
+    transition: 0.5s;
+    font-size: 1.04rem;
+}
+
+.journey{
+    display: flex;
+    justify-content: space-around;
+    height: 5vw; 
+    margin: 10px 0px;
+}
